@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/marielynn/Documents/GitHub/data_engineering_project/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/marielynn/Documents/GitHub/data-eng/target/scala-2.12/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumerSubscribeApp$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaProducerApp$.class[0m
@@ -39,26 +39,3 @@
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaProducerApp$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	GetSource.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Alert$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	Citizen.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Alert.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumerSubscribeApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Citizen$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Alert$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumerSubscribeApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Report.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Alert$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Report$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumerSubscribeApp$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Drone.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	test_main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	test_main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	GetSource.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Drone$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducerApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	GetSource$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducerApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducerApp$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/marielynn/Documents/GitHub/data_engineering_project/target/scala-2.12/classes.bak[0m
