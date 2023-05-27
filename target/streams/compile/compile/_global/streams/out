@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:7:8: object Citizen is not a member of package com.peaceland.utils[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.peaceland.utils.{Alert, Citizen, Drone, GetSource, Report}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:32:44: not found: type Citizen[0m
+[0m[[0m[31merror[0m] [0m[0m  def calculateAverageScore(citizens: List[Citizen]): Double = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:41:37: not found: type Citizen[0m
+[0m[[0m[31merror[0m] [0m[0m  def getMinMaxScore(citizens: List[Citizen]): (Int, Int) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:47:43: not found: type Citizen[0m
+[0m[[0m[31merror[0m] [0m[0m  def countCitizensByScore(citizens: List[Citizen]): Map[Int, Int] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:52:55: not found: type Citizen[0m
+[0m[[0m[31merror[0m] [0m[0m  def getTroubleMakers(citizens: List[Citizen]): List[Citizen] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:52:39: not found: type Citizen[0m
+[0m[[0m[31merror[0m] [0m[0m  def getTroubleMakers(citizens: List[Citizen]): List[Citizen] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerAnalyzer.scala:62:29: not found: value consumerRecords[0m
+[0m[[0m[31merror[0m] [0m[0m  val dates: List[String] = consumerRecords.asScala.toList.flatMap { record =>[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/marielynn/Documents/GitHub/data_engineering_project/src/main/scala/com/peaceland/kafka/processing/KafkaConsumerSubscribeApp.scala:35:47: value hwead is not a member of Seq[play.api.libs.json.JsValue][0m
+[0m[[0m[31merror[0m] [0m[0m    val droneId = (parsedRecord \\ "droneId").hwead.as[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

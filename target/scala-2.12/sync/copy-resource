@@ -1,0 +1,1 @@
+[[{"${BASE}/src/main/resources/names.csv":["${BASE}/target/scala-2.12/classes/names.csv"]},{"${BASE}/target/scala-2.12/classes/names.csv":["${BASE}/src/main/resources/names.csv"]}],{"${BASE}/src/main/resources/names.csv":{"file":"file:///Users/marielynn/Documents/GitHub/data_engineering_project/src/main/resources/names.csv","lastModified":1683793718587}}]

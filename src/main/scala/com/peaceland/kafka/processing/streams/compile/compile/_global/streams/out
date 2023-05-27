@@ -1,0 +1,79 @@
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.common.serialization.StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerConfig, ConsumerRecords, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.common.serialization.StringSerializer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:9:14: object jdk is not a member of package scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.jdk.CollectionConverters._[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:15:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.GROUP_ID_CONFIG, "test")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:16:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:17:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, classOf[StringDeserializer])[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:17:67: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, classOf[StringDeserializer])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:18:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, classOf[StringDeserializer])[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:18:69: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, classOf[StringDeserializer])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:19:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, "true")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:20:13: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, "1000")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:22:17: not found: type KafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val consumer: KafkaConsumer[String, String] = new KafkaConsumer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:22:53: not found: type KafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val consumer: KafkaConsumer[String, String] = new KafkaConsumer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaConsumerSubscribeApp.scala:26:24: not found: type ConsumerRecords[0m
+[0m[[0m[31merror[0m] [0m[0m  val consumerRecords: ConsumerRecords[String, String] = consumer.poll(Duration.ofMillis(10))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord, RecordMetadata}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.common.serialization.StringSerializer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:11:13: not found: value ProducerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:12:13: not found: value ProducerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, classOf[StringSerializer])[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:12:65: not found: type StringSerializer[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, classOf[StringSerializer])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:13:13: not found: value ProducerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, classOf[StringSerializer])[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:13:67: not found: type StringSerializer[0m
+[0m[[0m[31merror[0m] [0m[0m  props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, classOf[StringSerializer])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:16:17: not found: type KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  val producer: KafkaProducer[String, String] = new KafkaProducer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:16:53: not found: type KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  val producer: KafkaProducer[String, String] = new KafkaProducer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:23:15: not found: type ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m  val record: ProducerRecord[String, String] = new ProducerRecord[String, String](topic, key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/axel/Documents/M1-APP/S8/Data_engineeringI_Adrien_Broussole/test_kafka/src/main/scala/com/projet/kafka/KafkaProducerApp.scala:23:52: not found: type ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m  val record: ProducerRecord[String, String] = new ProducerRecord[String, String](topic, key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m26 errors found[0m
