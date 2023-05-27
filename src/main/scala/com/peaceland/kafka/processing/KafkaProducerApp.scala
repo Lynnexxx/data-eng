@@ -77,3 +77,6 @@ object KafkaProducerApp {
 
     query.awaitTermination()
 
+  spark.close()
+  }
+}
